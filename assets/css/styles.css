@@ -288,6 +288,15 @@ img{
     color: var(--first-color-alt);    
 }
 
+.home__blob{
+    width: 200px;
+    fill: var(--first-color);
+}
+
+.home__blob-img{
+    width: 230px;
+}
+
 /*================== BUTTONS ======================*/
 
 /* ==================== ABOUT =================== */
