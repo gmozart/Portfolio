@@ -15,7 +15,7 @@
 
  /*    Change favorite color    */
 
- --hue-color: 250;
+ --hue-color: 142;
 
  /*HSL color mode*/
 
@@ -54,7 +54,7 @@
 /* .25rem = 4px, .5rem = 8px, .75rem =12px */
 
 --mb-0-25: .25rem;
---mb-9-5: .5rem;
+--mb-0-5: .5rem;
 --mb-0-75: .75rem;
 --mb-1: 1rem;
 --mb-1-5: 1.5rem;
@@ -317,7 +317,7 @@ img{
 }
 
 .home__scroll{
-    /*display: none;*/
+    display: none;
 }
 
 .home__scroll-button{
@@ -345,20 +345,30 @@ img{
 }
  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*================== BUTTONS ======================*/
+
+.button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #FFF;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+}
+
+.button:hover{
+    background-color: var(--first-color-alt);
+}
+
+.button__icon{
+    font-size: 1.25rem;
+    margin-left: var(--mb-0-5);
+    transition: .3s;
+}
+
+.button--flex{
+    display: inline-flex;
+    align-items: center;
+}
 
 /* ==================== ABOUT =================== */
