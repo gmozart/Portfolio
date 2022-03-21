@@ -456,6 +456,11 @@ img{
       transition: .4s;
 }
 
+.skills_list{
+    row-gap: 1.5rem;
+    padding-left: 2.7rem;
+}
+
 .skills__titles{
       display: flex;
       justify-content: space-between;
@@ -503,12 +508,38 @@ img{
     width: 80%;
 }
 
+.skills__java{
+    width:90%;
+}
 
+.skills__spring{
+    width: 70%;
+}
 
+.skills__plsql{
+    width: 80%;
+}
+
+.skills__node{
+    width: 80%;
+} 
+
+.skills__open .skills__list{
+   height: max-content;
+   margin-bottom: var(--mb-2-5);
+}
+
+.skills__close .skills__list{
+    height: 0;
+    overflow: hidden;
+} 
+
+.skills__open .skills__arrow{
+    transform: rotate(-180deg);
+}
 
 /*==================== QUALIFICATION ====================*/
 
 /*==================== SERVICES ====================*/
 
 /* ACTIVE MODAL */
-
